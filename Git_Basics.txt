@@ -1,0 +1,30 @@
+Objective
+---------
+Get started with Git for version control of your projects
+
+
+Background/Recap
+----------------
+Ever been in a situation where
+
+You badly needed your old code but it's lost beyond the reach of Ctrl-Z
+
+You take backups of your work in progress into different folders like project-x-01082020, project-x-02082020 etc.
+
+You need to integrate changes made to a project independently by your team members without losing any code
+
+You need to keep track of metadata on a project worked on by multiple developers like - what/who/when/why for any changes made
+
+*) 
+Version control systems help in these situations. They help us keep track of changes to our files by taking snapshots of them. We can look at earlier snapshots and also restore our code to an earlier snapshot. This lets us work on our projects without worrying about introducing errors to partly/completely working versions and not being able to go back.
+
+Git is one of them, probably the most popular one.
+
+*)
+Git projects are called Repositories and contain Git related files apart from the project files we add. These git files contain info about all the changes made - who made the changes, what changes were made, when was it made etc. Similar to having Google Drive for file sharing, we have version control providers like GitLab, GitHub etc. to facilitate the use of Git repositories.
+
+Primary goals
+-------------
+Understand how Git works
+
+Learn the basic Git commands
