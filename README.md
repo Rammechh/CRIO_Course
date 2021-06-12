@@ -8,6 +8,6 @@
     * To download/upload contents from/to the above Gitlab repositories you’ll have to prove you’re having access to it.
     * Execute the below command to generate an SSH key. SSH protocol allows you to remotely access machines using the SSH key.
     * SSH -> SSH or Secure Shell is a network communication protocol that enables two computers to communicate
-    * **ssh-keygen -t ed25519 -C "crio-git-byte"**
+    * **ssh-keygen -t ed25519 -C "crio-git-byte"** [ssh-keygen Codes](https://www.ssh.com/academy/ssh/keygen)
     * 
 
