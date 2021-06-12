@@ -9,5 +9,5 @@
     * Execute the below command to generate an SSH key. SSH protocol allows you to remotely access machines using the SSH key.
     * SSH -> SSH or Secure Shell is a network communication protocol that enables two computers to communicate
     * **ssh-keygen -t ed25519 -C "crio-git-byte"** [ssh-keygen Codes](https://www.ssh.com/academy/ssh/keygen)
-    * 
+    * Did you notice you were given two links to your Gitlab repository earlier? The one which starts with git@gitlab.crio.do is to be used to authenticate using SSH. The https link authenticates using your gitlab.crio.do username and password Execute cat ~/.ssh/id_ed25519.pub and copy the public key printed. You’ll add this to https://gitlab.crio.do/ in the next step
 
