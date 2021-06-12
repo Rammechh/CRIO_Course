@@ -28,3 +28,47 @@ Primary goals
 Understand how Git works
 
 Learn the basic Git commands
+
+########################################################################################################################################################################################
+Setup -1:
+---------
+Setup - Crio Workspace
+Follow the textual instructions if you have access to the Crio workspace
+These are the links to the GitLab repository created for you. We’ll use these in the next milestone
+
+*) git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git
+
+*) https://gitlab.crio.do/COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git
+
+Goto the above https link to view your Git repository in https://gitlab.crio.do. You’ll need to sign in with Google using the account registered with Crio.
+Note
+Setup is complete and you can move on to "Milestone 1 - Get that Code".
+
+
+Setup - Gitpod Workspace
+------------------------
+Note: If you are having access to the Crio workspace, you don’t have to use Gitpod. You can move ahead to the next milestone to get started.
+
+
+Follow the below video or the set of textual instructions given below if you are working in the Gitpod workspace
+
+Youtube URL: https://youtu.be/W78b-0x6jnE
+
+Goto the Gitpod workspace and open the terminal from within
+
+*)To download/upload contents from/to the above Gitlab repositories you’ll have to prove you’re having access to it. Execute the below command to generate an SSH key. SSH protocol allows you to remotely access machines using the SSH key.
+
+**)ssh-keygen -t ed25519 -C "crio-git-byte"
+
+Did you notice you were given two links to your Gitlab repository earlier? The one which starts with git@gitlab.crio.do is to be used to authenticate using SSH. The https link authenticates using your gitlab.crio.do username and password
+
+*) Execute cat ~/.ssh/id_ed25519.pub and copy the public key printed. You’ll add this to https://gitlab.crio.do/ in the next step
+
+
+Goto https://gitlab.crio.do/ and copy-paste this key by following the instructions in the below video. (Note: You have to visit https://gitlab.crio.do/ and not gitlab.com)
+
+Youtube URL : https://youtu.be/mNtQ55quG9M
+
+
+
+
