@@ -13,3 +13,5 @@
 
     * crio-user@ram75353:~$ cat ~/.ssh/id_ed25519.pub
       ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL3J0omWRsa8BM7Ft6FyMoF25skFKG5o6cSL/OlOO6eU crio-git-byte
+    
+ ##### [Adding SSH key to Gitlab](https://youtu.be/mNtQ55quG9M)
