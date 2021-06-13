@@ -15,3 +15,4 @@
       ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL3J0omWRsa8BM7Ft6FyMoF25skFKG5o6cSL/OlOO6eU crio-git-byte
     
  ##### [Adding SSH key to Gitlab](https://youtu.be/mNtQ55quG9M)
+  + ssh -T git@gitlab.com (use this tto test connection to gitlab)
