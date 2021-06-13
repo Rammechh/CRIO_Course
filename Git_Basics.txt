@@ -60,14 +60,77 @@ Goto the Gitpod workspace and open the terminal from within
 
 **)ssh-keygen -t ed25519 -C "crio-git-byte"
 
+-t “Type” This option specifies the type of key to be created. Commonly used values are: - rsa for RSA keys - dsa for DSA keys - ecdsa for elliptic curve DSA keys
+
+You’ll be asked to enter the file to save the generated key and passphrase to secure it. Hit enter for both of these, you don’t have to type anything.
+
+In Workspace:
+----------------------------------------------------------------------------
+crio-user@ram75353:~$ ssh-keygen -t ed25519 -C "crio-git-byte"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/crio-user/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/crio-user/.ssh/id_ed25519.
+Your public key has been saved in /home/crio-user/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:rXycDi1cwRScb8E+4Kn7XE62o7LBSwCbc0pMKvVigF8 crio-git-byte
+The key's randomart image is:
++--[ED25519 256]--+
+|         .o+     |
+|.        o+ o    |
+|o . E    .o= .   |
+| + * +   .o.=    |
+|. = B o S.o. .   |
+| o o + =.= .     |
+|    .   X.= +    |
+|       .oO =..   |
+|        o+=.o.   |
++----[SHA256]-----+
+
+--------------------------------------------------------------------------------
+
 Did you notice you were given two links to your Gitlab repository earlier? The one which starts with git@gitlab.crio.do is to be used to authenticate using SSH. The https link authenticates using your gitlab.crio.do username and password
 
 *) Execute cat ~/.ssh/id_ed25519.pub and copy the public key printed. You’ll add this to https://gitlab.crio.do/ in the next step
-
+In Workspace:
+----------------------------------------------------------------------------
+crio-user@ram75353:~$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL3J0omWRsa8BM7Ft6FyMoF25skFKG5o6cSL/OlOO6eU crio-git-byte
+----------------------------------------------------------------------------
 
 Goto https://gitlab.crio.do/ and copy-paste this key by following the instructions in the below video. (Note: You have to visit https://gitlab.crio.do/ and not gitlab.com)
 
+--> goto  https://gitlab.crio.do/ profile-> settings-> SSH keys
+
 Youtube URL : https://youtu.be/mNtQ55quG9M
+
+Ensure the SSH key creation on Gitpod and adding it to gitlab.crio.do was successfully done by executing the below command. You’ll see a message like "Welcome to Gitlab, @<your-gitlab.crio.do-username>"
+
+gitpod /workspace/me_git_basics $ ssh -T git@gitlab.crio.do
+
+
+In Workspace:
+----------------------------------------------------------------------------
+crio-user@ram75353:~$ ssh -T git@gitlab.crio.do
+The authenticity of host 'gitlab.crio.do (3.6.224.204)' can't be established.
+ECDSA key fingerprint is SHA256:t3CF1Kqp6fytT2JGfpDJO+c36vBw5SWIXdVrFQw3Sh4.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'gitlab.crio.do,3.6.224.204' (ECDSA) to the list of known hosts.
+Welcome to GitLab, @ram75353!
+------------------------------------------------------------------------------
+Execute the below commands to setup the directory structure
+
+In Workspace:
+----------------------------------------------------------------------------
+mkdir -p ~/workspace/bytes
+
+cd ~/workspace/bytes
+------------------------------------------------------------------------------
+
+
+##Milestone 1:
+
 
 
 
