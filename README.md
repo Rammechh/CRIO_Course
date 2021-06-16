@@ -17,3 +17,20 @@
  ##### [Adding SSH key to Gitlab](https://youtu.be/mNtQ55quG9M)
   + ssh -T git@gitlab.com (use this tto test connection to gitlab)
  
+ #### Milestone 1
+  + mkdir -p ~/workspace/bytes
+  + cd ~/workspace/bytes
+* Ensure you clone using the ssh link and not the https link
+  + git clone <add-ssh-link-here>
+  + git clone git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git
+    * Cloning into 'ram75353-ME_GIT_BASICS'...
+    * warning: You appear to have cloned an empty repository.
+  + cd ram75353-ME_GIT_BASICS (to move to my github proj)
+  + git status (to check status)
+    * On branch master
+    * No commits yet
+    * nothing to commit (create/copy files and use "git add" to track)
+  + crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$ git remote -v
+    * origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (fetch)
+    * origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (push)
+
