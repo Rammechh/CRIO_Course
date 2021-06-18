@@ -19,7 +19,7 @@
  ##### [Adding SSH key to Gitlab](https://youtu.be/mNtQ55quG9M)
   + ssh -T git@gitlab.com (use this tto test connection to gitlab)
  __________________________________________________________________________________________________________________________________________________________________________
- #### Milestone 1
+ #### Milestone 1 (Get that Code)
   + mkdir -p ~/workspace/bytes
   + cd ~/workspace/bytes
 * Ensure you clone using the ssh link and not the https link
@@ -44,6 +44,7 @@
 3) Branches in Git (https://www.atlassian.com/git/tutorials/using-branches)
 
 4) What is the git folder? (https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
- 
  _______________________________
+#### Milestone 2 (Add new Changes)
+  + 
 
