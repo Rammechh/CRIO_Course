@@ -75,6 +75,6 @@ ________________________________________________________________________________
 
 2)"Remote contains work that you don’t have locally" error explained (https://blog.plover.com/prog/git-ff-error.html)
 
-3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484) 
+3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484)  
 ______________________________________________________________________________________________________________________________________________________________________________
  
