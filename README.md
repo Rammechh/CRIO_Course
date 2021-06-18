@@ -46,6 +46,6 @@
 4) What is the git folder? (https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
  _______________________________
 #### Milestone 2 (Add new Changes)
-  + **git add 'file_name' **
-  + A commit is like a checkpoint in Git where we save the current state of our files. ( **git commit **)
+  + **git add 'file_name'**
+  + A commit is like a checkpoint in Git where we save the current state of our files. ( **git commit**)
 
