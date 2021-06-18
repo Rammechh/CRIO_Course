@@ -48,5 +48,5 @@
 #### Milestone 2 (Add new Changes)
   + Open Folder 'crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$' and add file 'First.txt'
   + **git add 'First.txt'(Filename)**
-  + A commit is like a checkpoint in Git where we save the current state of our files. (**git commit comments**) (If no comments -> Aborting commit due to empty commit message.)
-  + 
+  + A commit is like a checkpoint in Git where we save the current state of our files. (**git commit -m "comment"**) (If no comments -> Aborting commit due to empty commit message.)
+  + If got some error like this  "! [rejected] master -> master (non-fast-forward)" use the following command  "**git pull --rebase origin master**"
