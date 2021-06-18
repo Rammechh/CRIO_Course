@@ -63,4 +63,18 @@
   
 ______________________________________________________________________________________________________________________________________________________________________________
 #### Milestone 3 (Being in Sync)
+  
+  + Add a Readme.md file in GIT LAB UI
+  + Now if you try to push from local to clone it will throw an error like (CONFLICT (content): Merge conflict in README.md)
+  + So, Pull the latest code from repository to local "**git pull**"(it will update in local)
+  + After use "**git push**" from local to move to repository.
+  
+##### References
+  
+1)Git Pull Explained (https://www.freecodecamp.org/news/git-pull-explained)
+
+2)"Remote contains work that you don’t have locally" error explained (https://blog.plover.com/prog/git-ff-error.html)
+
+3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484) 
+______________________________________________________________________________________________________________________________________________________________________________
  
