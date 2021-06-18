@@ -33,4 +33,15 @@
   + crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$ git remote -v
     * origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (fetch)
     * origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (push)
+  
+##### References
+1) Git Cheatsheet (https://education.github.com/git-cheat-sheet-education.pdf)
+
+2) A Short History of Git (https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+
+3) Branches in Git (https://www.atlassian.com/git/tutorials/using-branches)
+
+4) What is the git folder? (https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
+ 
+ _______________________________
 
