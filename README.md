@@ -51,3 +51,16 @@
   + A commit is like a checkpoint in Git where we save the current state of our files. (2)**git commit -m "comment"**) (If no comments -> Aborting commit due to empty commit message.)
   + 3)**git push -u origin master** (To Add the changes and file to repository)
   + If got some error like this  "! [rejected] master -> master (non-fast-forward)" use the following command  "**git pull --rebase origin master**"
+  + **git log** to see the 
+
+##### References
+  
+1) Git: Add All Files to a Repo (https://stackabuse.com/git-add-all-files-to-a-repo/)
+
+2) Commit message style guide (http://udacity.github.io/git-styleguide/)
+
+3) The Git Commit Hash (https://www.mikestreety.co.uk/blog/the-git-commit-hash)
+  
+______________________________________________________________________________________________________________________________________________________________________________
+#### Milestone 3 (Being in Sync)
+ 
