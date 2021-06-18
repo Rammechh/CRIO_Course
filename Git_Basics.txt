@@ -131,6 +131,343 @@ cd ~/workspace/bytes
 
 ##Milestone 1:
 
+https://youtu.be/Bc_9_maxkLw
+
+All Git related commands start with the git keyword. One of the frequent commands you’ll use will be git status which gets you the current status of the Git repository. Try executing it.
+
+Git would’ve told you something like this
+
+fatal: Not a git repository (or any of the parent directories): .git
+
+Not the best of welcome message you might’ve anticipated from Git, still it’s something for us to get started with.
+
+
+The output from a Git command, if successful, tells us that it succeeded with some additional information, else it prints out details which can tell us why exactly the command failed. These details are very useful to address the error and run the command again.
+
+The above message means that you are not in a directory which is part of a git repository.
+
+
+You’d have your Git repository links from the setup task. Go to the HTTPS link (starting with https://gitlab) of the repository in your browser. GitLab would tell you it’s empty. Let’s download the "empty" repository to ~/workspace/bytes/ directory in our local system. Use the below command with the SSH link (starting with git@gitlab) to your repo to do this.
+
+The terminal will say Cloning into <folder-name>
+
+
+The folder name will be of the format <username>-me_git_basics
+
+
+Once done, you’d be able to see a new folder. Does it’s name have any correlation to the repository name? Is the new folder empty as GitLab told us or was it all a lie? (Hint: Hidden files)
+
+
+Now that we have the same Git repository on our local system as on GitLab, the former will be referred to as the local repo and the GitLab one, remote repo.
+
+
+Remotes in Git are usually places like GitLab & GitHub where we can share our code with others. Once you cd to the local repo folder, execute git remote -v to see something like this
+
+
+$ cd ~/workspace/bytes/ram75353--me_git_basics
+
+$ git remote -v
+
+origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (fetch)
+
+origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (push)
+
+This just means that whenever Git says origin, it’s referring to the repository denoted by
+
+
+git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git
+
+
+Try git status again from inside the repo folder. Assuming you weren’t eager enough to have made any changes to the files or folders after cloning the repo yet, you'll get this output
+
+
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Line 1: Mentions that we're currently in a branch named master.What is a Git branch? Why do we need them?
+
+Line 2: Mentions that we are yet to make our initial commit
+
+Line 3: Mentions that you haven’t made any changes that need to be committed
+
+Wait, wait! What does a commit mean?
+
+
+We’ll see in the next milestone :)
+
+For now, you have cloned a remote GitHub repository and you can access it on your machine just like a folder. You might also observe that there is a .git folder inside the repo. See if you can find out what this contains.
+------------------Workspace---------------------------
+mkdir -p ~/workspace/bytes
+
+cd ~/workspace/bytes
+
+# Ensure you clone using the ssh link and not the https link
+
+git clone <add-ssh-link-here>
+
+git clone git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git
+
+Cloning into 'ram75353-ME_GIT_BASICS'...
+warning: You appear to have cloned an empty repository.
+
+cd ram75353-ME_GIT_BASICS (to move to my github proj)
+
+git status (to check status)
+
+On branch master
+No commits yet
+nothing to commit (create/copy files and use "git add" to track)
+
+crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$ git remote -v
+origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (fetch)
+origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (push)
+
+
+----------------------------------------------------------
+
+References
+_____________________
+1) Git Cheatsheet (https://education.github.com/git-cheat-sheet-education.pdf)
+
+2) A Short History of Git (https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+
+3) Branches in Git (https://www.atlassian.com/git/tutorials/using-branches)
+
+4) What is the git folder? (https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
+
+________________________________________________________________________________________________________________________________________________________________________________________
+
+#Milestone 2 - > Add new Changes
+
+Saving changes locally
+Let’s get started with adding new files. I’ll create a file, first.txt and add some text to it. Feel free to create your own file(s). A file goes through different states in a Git repo - any changes we make are said to be in the working directory. Ok, try executing git status again - No, you won't get the earlier message or rather you shouldn't - Things don't happen the same way twice in life :)
+-----Workspace----
+On branch master
+Initial commit
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+nothing added to commit but untracked files present (use "git add" to track)
+
+--------------------
+We have some familiar lines in there and some newcomers as well!
+
+It’s trying to tell us that first.txt is an Untracked file. What does it mean for a file to be tracked in Git?
+
+Line 4 is Git being a good Samaritan. It's kind enough to tell us that the git add command can be used to add files to the next commit. A commit is like a checkpoint in Git where we save the current state of our files.
+
+Use the git add command to mark your files for the next commit. This pushes the changes from the working directory to the staging area. Use man git add to see the manual page. How does git status look now?
+
+We’ve added new files, do they reflect on GitLab? Login and check.
+
+We’re one step away from making our very first commit. We do that using git commit. The thing is, commits are like checkpoints for us to navigate back and forth (if required). It's better to add a message to our commit. Don't worry, our good friend Git will remind you (or should I say, force) to add a message to your commit.
+
+If you have a default text editor configured, it will open up, enter some info about what your commit has/is and close it. In case you were wondering, I added "Add first.txt file".
+
+Now that we’ve committed our changes, it should reflect on GitLab, right? Go and check.
+
+We can use git log to view all our commits. Each commit can be uniquely recognized by an ID. In this case, the commit ID starts with 869634. How do you think the ID is calculated, is it just a random number?
+
+Make changes to one of the files you just committed. Follow the same procedure to create a second commit with changes. See the output of git status after each command. Does it differ from what you saw earlier?
+
+Let the world know!
+We committed our ground-breaking updates, but they still haven’t shown up in the GitLab UI. Let’s see how to do this.
+
+Pushing is the art of sending updates from your local repo to the remote repo, which in our case is the GitLab repo we initially cloned from. One or more commits form a push. Use git push -u origin master for that. We specify the remote name & its branch we’re pushing our code to.
+
+
+---In Workspace---------------------------
+  + Open Folder 'crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$' and add file 'First.txt'
+  + 1)git add 'First.txt'(Filename)
+  + 2)git commit -m "comment" (If no comments -> Aborting commit due to empty commit message.)
+  + 3)git push -u origin master (To Add the changes and file to repository)
+  + If got some error like this  "! [rejected] master -> master (non-fast-forward)" use the following command  "git pull --rebase origin master"
+  + git log to see the 
+  
+---------------------------------------
+
+References
+-----------
+Git: Add All Files to a Repo (https://stackabuse.com/git-add-all-files-to-a-repo/)
+
+Commit message style guide (http://udacity.github.io/git-styleguide/)
+
+The Git Commit Hash (https://www.mikestreety.co.uk/blog/the-git-commit-hash)
+
+________________________________________________________________________________________________________________________________________________________________________________________
+Milestone 3 (Being in Sync)
+
+Getting updates from the remote
+Most of the time, you’ll be working on projects as part of a team. Each of you will be pushing new updates to the remote repository. How can you get the latest version of the code, with changes made by others, from the remote repo to your local repo?
+
+Let’s experience one such scenario. Readme files are usually helpful to provide instructions to users about the repository - what it is, how to set up the project, etc. Let’s create one for our git repo!
+Use the GitLab UI to create a new Readme file.
+
+Add the below text to the Readme file
+Learning Git Basics [Added via GitLab]
+
+You’ll be able to see the file added in GitLab. Did a new commit get auto-created?
+
+Now we need to get these changes reflected in our local repo as well. How do we do that?
+
+Let’s take a step back and think about how we did the opposite i.e., get changes from local repo to the remote. That was git push, right? So, this should be ___?
+
+Once you’ve pulled the changes from the remote repo to your local repo, verify the changes by checking the Readme file. Can you see the new commits (Hint: Use git log)?
+
+Can you quickly answer the first question below and comeback :)
+
+You first! No, you first!
+I have a couple of tasks for you
+
+Create/edit another file in the local repo and commit changes
+
+GitLab lets you edit files from the UI itself. Add "Learnt about git clone/status/log/add/commit commands" to the README file via GitLab and save the changes.
+
+What happens if you try to push your local changes now?
+
+Hmm, Git doesn’t seem to be happy with that :(
+
+To git@gitlab.com:nabhan.abdullah/git-basics-byte.git
+
+ ! [rejected]        master -> master (fetch first)
+
+error: failed to push some refs to 'git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git'
+
+hint: Updates were rejected because the remote contains work that you do
+
+hint: not have locally. This is usually caused by another repository pushing
+
+hint: to the same ref. You may want to first integrate the remote changes
+
+hint: (e.g., 'git pull ...') before pushing again.
+
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Why could that be?
+
+
+Git has presented us with intel on why the error occurred as always. It’s trying to tell us something about the updates being rejected due to the remote having work that we don’t have locally. Ah, there you go! We had made some changes to the README earlier via GitLab UI, right?
+
+
+We’ll need to use the git pull command first to integrate the remote changes locally & then push. Do both of these.
+
+
+But, why did we have to do a git pull followed by a git push? Why wouldn’t it work the other way around? Think about a scenario where multiple team members could be changing the same file as well. We’ll get to this in the next milestone.
+
+References
+----------
+Git Pull Explained (https://www.freecodecamp.org/news/git-pull-explained)
+
+"Remote contains work that you don’t have locally" error explained (https://blog.plover.com/prog/git-ff-error.html)
+
+Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484) 
+
+________________________________________________________________________________________________________________________________________________________________________________________
+# Milestone 4 
+
+Time to make a choice!
+Ready for more tasks that are common during a software cycle?
+
+Update the Readme title to Learning lots of Git Basics [Added via GitLab] via GitLab UI
+
+Update the Readme title to Learning more Git Basics [Added via local repo] from the local repo and commit the changes
+
+Push the changes. You know what happens next, right? Yep, Git will ask you to pull first. Is the situation under control once you Pull?
+
+You’d be shown a message like this (if you are on Crio workspace, you’ll be asked to enter y or n based on if you know how to resolve a merge conflict. Enter y, we’ll go through how to resolve the merge-conflict below. Entering n will remove any changes caused by the pull command. Do a pull again if you accidentally hit n)
+
+Auto-merging README.md
+
+CONFLICT (content): Merge conflict in README.md
+
+Automatic merge failed; fix conflicts and then commit the result.
+
+It’s hinting towards some conflict in the README.md file. But, why didn’t this happen the last time we did the same process?
+
+On pulling, Git checks the changes coming from the remote, sees that the same file has changed locally as well & automatically tries to include both sets of changes. In this case, we’ve made changes to the same line of the README file both locally & remotely. Git wouldn’t know which one to prioritise and needs our help to resolve this merge conflict.
+
+Open the README file in your editor
+
+image alt text
+
+Current Change is what you had locally & Incoming Change is that from the remote.
+
+Make up your mind and choose one. You can also choose both sets of changes and edit them further if that is required. After you’ve made the changes according to your choice, do a git add README.md and git commit to complete the merge.
+
+References
+----------
+About Merge Conflict(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts)
+
+Note
+If you are using Gtipod, it will be a good idea to remove the SSH key you added to https://gitlab.crio.do/ after you complete the Byte tasks for security reasons.
+
+Curious Cats
+What kinds of merges can Git do automatically?
+Answers to these Curious Cats questions will be available in the Takeaways milestone at the end.
+
+________________________________________________________________________________________________________________________________________________________________________________________
+Milestone 5 (Takeaway)
+
+Summary
+Basic workflow in Git
+
+You modify files in your working directory
+
+You stage the files, adding snapshots of them to your staging area (git add file)
+
+You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your local Git repository (git commit file)
+
+You push the changes from the local repository to the remote repository (git push)
+
+You pull the changes from the remote repository to the local repository (git pull)
+
+image alt text
+
+Source
+
+State of the file according to the actions
+image alt text
+
+Source
+
+Find
+
+Quiz answers here
+
+Pointers to the Curious Cats questions here
+
+Further reading
+Git offers several more features which help in maintaining code and collaborating with team members during software development. For example - config, branch, stash, squash etc. You can explore these as needed.
+
+What is Version Control?
+
+Oh Shit, Git!?!
+
+The Advanced Git Guide
+
+
+Excited? Dig deeper to Git internals for answering the below questions
+
+What actually happens within Git when we do a commit?
+
+Each commit gets a unique ID, how is it created?
+
+Newfound Superpowers
+Ability to use Git for your projects and never lose older versions.
+Now you can
+Download code from hosting services like GitLab/GitHub & start working on them locally
+
+Make changes locally and push them back to the GitLab/GitHub
+
+Use Git to create checkpoints (sets of changes tracked together) in your project
+
+Share code and resolve merge conflicts while working in a team
+
+Overall, use commands to perform basic Git operations for version control and collaboration
+
 
 
 
