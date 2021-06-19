@@ -104,13 +104,13 @@ ________________________________________________________________________________
 
 ##### References
   
-1) Getting started with VS Code(https://code.visualstudio.com/docs/introvideos/basics)
+1) [Getting started with VS Code](https://code.visualstudio.com/docs/introvideos/basics)
 
-2) [Video] Inspect Network Activity - Chrome DevTools 101(https://www.youtube.com/watch?v=e1gAyQuIFQo)
+2) [[Video] Inspect Network Activity - Chrome DevTools 101](https://www.youtube.com/watch?v=e1gAyQuIFQo)
 
-3) Using DevTools to inspect network activity(https://developers.google.com/web/tools/chrome-devtools/network)
+3) [Using DevTools to inspect network activity](https://developers.google.com/web/tools/chrome-devtools/network)
 
-4) Understanding And Using REST APIs(https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+4) [Understanding And Using REST APIs](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 
-5) What is XMLHttpRequest(https://javascript.info/xmlhttprequest)
+5) [What is XMLHttpRequest](https://javascript.info/xmlhttprequest)
 
