@@ -101,5 +101,16 @@ ________________________________________________________________________________
   + Goto any site and press CLRTL+SHIFT+I or right -> click Inspect.
   + Goto Network tab and click on XHR (XMLHttpRequest). To fetch data from an API endpoint without refreshing the webpage, XMLHttpRequest (XHR) is used. It enables the webpage to update a part of it without disrupting the overall view for the user.
   + Ex. goto https://leetcode.com/problemset/all/ filter with XHR and click on 'all' request. The API endpoint (or the HTTP request URL) is https://leetcode.com/api/problems/all/ which return the JSON format. JavaScript Object Notation (JSON) is a commonly used format to transfer data between computers. JSON is a human readable format with key-value pairs.
-  + 
+
+##### References
+  
+1) Getting started with VS Code(https://code.visualstudio.com/docs/introvideos/basics)
+
+2) [Video] Inspect Network Activity - Chrome DevTools 101(https://www.youtube.com/watch?v=e1gAyQuIFQo)
+
+3) Using DevTools to inspect network activity(https://developers.google.com/web/tools/chrome-devtools/network)
+
+4) Understanding And Using REST APIs(https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+
+5) What is XMLHttpRequest(https://javascript.info/xmlhttprequest)
 
