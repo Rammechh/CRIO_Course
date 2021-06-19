@@ -98,6 +98,8 @@ Excited? Dig deeper to Git internals for answering the below questions
 ______________________________________________________________________________________________________________________________________________________________________________
 ## Developer Tools 1
 #### Get started using Chrome Developer Tools
-  + CLRTL+SHIFT+I or right click Inspect.
+  + Goto any site and press CLRTL+SHIFT+I or right -> click Inspect.
+  + Goto Network tab and click on XHR (XMLHttpRequest). To fetch data from an API endpoint without refreshing the webpage, XMLHttpRequest (XHR) is used. It enables the webpage to update a part of it without disrupting the overall view for the user.
+  + Ex. goto https://leetcode.com/problemset/all/ filter with XHR and click on 'all' request. The API endpoint (or the HTTP request URL) is https://leetcode.com/api/problems/all/ which return the JSON format. JavaScript Object Notation (JSON) is a commonly used format to transfer data between computers. JSON is a human readable format with key-value pairs.
   + 
 
