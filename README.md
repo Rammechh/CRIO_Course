@@ -77,4 +77,7 @@ ________________________________________________________________________________
 
 3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484)  
 ______________________________________________________________________________________________________________________________________________________________________________
- 
+ #### Points to rememer
+  + There’s another command, git fetch. How’s it different from a git pull?
+git fetch fetches only metadata related to changes and doesn’t actually make any changes to the project files we have locally. We’ll need to do a separate git merge for that whereas git pull naively speaking does both **git pull = git fetch + git merge**
+
