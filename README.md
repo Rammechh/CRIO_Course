@@ -97,6 +97,7 @@ Excited? Dig deeper to Git internals for answering the below questions
 + [Each commit gets a unique ID, how is it created?](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
 ______________________________________________________________________________________________________________________________________________________________________________
 ## Developer Tools 1
+  + [Opening Chrome Developer Tools](https://youtu.be/lU5AS5ntN2w)
 #### Get started using Chrome Developer Tools
   + Goto any site and press CLRTL+SHIFT+I or right -> click Inspect.
   + Goto Network tab and click on XHR (XMLHttpRequest). To fetch data from an API endpoint without refreshing the webpage, XMLHttpRequest (XHR) is used. It enables the webpage to update a part of it without disrupting the overall view for the user.
