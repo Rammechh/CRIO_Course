@@ -98,5 +98,6 @@ Excited? Dig deeper to Git internals for answering the below questions
 ______________________________________________________________________________________________________________________________________________________________________________
 ## Developer Tools 1
 #### Get started using Chrome Developer Tools
+  + CLRTL+SHIFT+I or right click Inspect.
   + 
 
