@@ -71,11 +71,11 @@ ________________________________________________________________________________
   
 ##### References
   
-1)Git Pull Explained (https://www.freecodecamp.org/news/git-pull-explained)
+1) [Git Pull Explained](https://www.freecodecamp.org/news/git-pull-explained)
 
-2)"Remote contains work that you don’t have locally" error explained (https://blog.plover.com/prog/git-ff-error.html)
+2) ["Remote contains work that you don’t have locally" error explained](https://blog.plover.com/prog/git-ff-error.html)
 
-3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484)  
+3) [Other ways to resolve the "Remote contains work that you don’t have locally" error](https://stackoverflow.com/q/24357108/9734484)  
 ______________________________________________________________________________________________________________________________________________________________________________
  #### Points to remember
   + There’s another command, git fetch. How’s it different from a git pull?
