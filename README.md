@@ -37,13 +37,13 @@
     * origin  git@gitlab.crio.do:COHORT_ME_GIT_BASICS_ENROLL_1596802014715/ram75353-ME_GIT_BASICS.git (push)
   
 ##### References
-1) Git Cheatsheet (https://education.github.com/git-cheat-sheet-education.pdf)
+1) [Git Cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-2) A Short History of Git (https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+2) [A Short History of Git](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
-3) Branches in Git (https://www.atlassian.com/git/tutorials/using-branches)
+3) [Branches in Git](https://www.atlassian.com/git/tutorials/using-branches)
 
-4) What is the git folder? (https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
+4) [What is the git folder?](https://stackoverflow.com/questions/29217859/what-is-the-git-folder/56145562)
  _______________________________
 #### Milestone 2 (Add new Changes)
   + Open Folder 'crio-user@ram75353:~/workspace/bytes/ram75353-ME_GIT_BASICS$' and add file 'First.txt'
@@ -55,11 +55,11 @@
 
 ##### References
   
-1) Git: Add All Files to a Repo (https://stackabuse.com/git-add-all-files-to-a-repo/)
+1) [Git: Add All Files to a Repo](https://stackabuse.com/git-add-all-files-to-a-repo/)
 
-2) Commit message style guide (http://udacity.github.io/git-styleguide/)
+2) [Commit message style guide](http://udacity.github.io/git-styleguide/)
 
-3) The Git Commit Hash (https://www.mikestreety.co.uk/blog/the-git-commit-hash)
+3) [The Git Commit Hash](https://www.mikestreety.co.uk/blog/the-git-commit-hash)
   
 ______________________________________________________________________________________________________________________________________________________________________________
 #### Milestone 3 (Being in Sync)
@@ -84,17 +84,17 @@ Further reading
 -----------------
 Git offers several more features which help in maintaining code and collaborating with team members during software development. For example - config, branch, stash, squash etc. You can explore these as needed.
 
-+ What is Version Control? (https://www.perforce.com/blog/vcs/what-is-version-control)
++ [What is Version Control?](https://www.perforce.com/blog/vcs/what-is-version-control)
 
-+ Oh Shit, Git!?! (https://ohshitgit.com/)
++ [Oh Shit, Git!?!](https://ohshitgit.com/)
 
-+ The Advanced Git Guide (https://www.toptal.com/git/the-advanced-git-guide)
++ [The Advanced Git Guide](https://www.toptal.com/git/the-advanced-git-guide)
 
 Excited? Dig deeper to Git internals for answering the below questions
 
-+ What actually happens within Git when we do a commit? (https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi)
++ [What actually happens within Git when we do a commit?](https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi)
 
-+ Each commit gets a unique ID, how is it created? (https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
++ [Each commit gets a unique ID, how is it created?](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
 ______________________________________________________________________________________________________________________________________________________________________________
 ## Developer Tools 1
 #### Get started using Chrome Developer Tools
