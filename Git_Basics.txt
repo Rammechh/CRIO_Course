@@ -428,32 +428,33 @@ image alt text
 
 Source
 
-State of the file according to the actions
+State of the file according to the actions 
 image alt text
 
 Source
 
 Find
 
-Quiz answers here
+Quiz answers here (https://docs.google.com/document/d/1qSlRQDLOXRAJUt51pj0iWEEZjbMulkjgVS5U8kBi9a8/edit?usp=sharing)
 
-Pointers to the Curious Cats questions here
+Pointers to the Curious Cats questions here (https://docs.google.com/document/d/1NQ6cU_uuN8c5jjHFpcVhE2bvh19zzuz-baPozY82nU0/edit?usp=sharing)
 
 Further reading
+-----------------
 Git offers several more features which help in maintaining code and collaborating with team members during software development. For example - config, branch, stash, squash etc. You can explore these as needed.
 
-What is Version Control?
+What is Version Control? (https://www.perforce.com/blog/vcs/what-is-version-control)
 
-Oh Shit, Git!?!
+Oh Shit, Git!?! (https://ohshitgit.com/)
 
-The Advanced Git Guide
+The Advanced Git Guide (https://www.toptal.com/git/the-advanced-git-guide)
 
 
 Excited? Dig deeper to Git internals for answering the below questions
 
-What actually happens within Git when we do a commit?
+What actually happens within Git when we do a commit? (https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi)
 
-Each commit gets a unique ID, how is it created?
+Each commit gets a unique ID, how is it created? (https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
 
 Newfound Superpowers
 Ability to use Git for your projects and never lose older versions.
