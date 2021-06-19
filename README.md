@@ -95,3 +95,8 @@ Excited? Dig deeper to Git internals for answering the below questions
 + What actually happens within Git when we do a commit? (https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi)
 
 + Each commit gets a unique ID, how is it created? (https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
+______________________________________________________________________________________________________________________________________________________________________________
+## Developer Tools 1
+#### Get started using Chrome Developer Tools
+  + 
+
