@@ -77,7 +77,21 @@ ________________________________________________________________________________
 
 3)Other ways to resolve the "Remote contains work that you don’t have locally" error (https://stackoverflow.com/q/24357108/9734484)  
 ______________________________________________________________________________________________________________________________________________________________________________
- #### Points to rememer
+ #### Points to remember
   + There’s another command, git fetch. How’s it different from a git pull?
 git fetch fetches only metadata related to changes and doesn’t actually make any changes to the project files we have locally. We’ll need to do a separate git merge for that whereas git pull naively speaking does both **git pull = git fetch + git merge**
+Further reading
+-----------------
+Git offers several more features which help in maintaining code and collaborating with team members during software development. For example - config, branch, stash, squash etc. You can explore these as needed.
 
++ What is Version Control? (https://www.perforce.com/blog/vcs/what-is-version-control)
+
++ Oh Shit, Git!?! (https://ohshitgit.com/)
+
++ The Advanced Git Guide (https://www.toptal.com/git/the-advanced-git-guide)
+
+Excited? Dig deeper to Git internals for answering the below questions
+
++ What actually happens within Git when we do a commit? (https://dzone.com/articles/git-behind-the-curtain-what-happens-when-you-commi)
+
++ Each commit gets a unique ID, how is it created? (https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
