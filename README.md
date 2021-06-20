@@ -130,3 +130,17 @@ ________________________________________________________________________________
 
 4) [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 ______________________________________________________________________________________________________________________________________________________________________________
+#####Summary
+  
++ Chrome DevTools is useful to find the API endpoints by inspecting the HTTP requests made by the browser
+
++ Javascript can be used to fetch data from the APIs and re-model the response according to our need
+
++ Further Learning
+  
+1) [[Video] Google Chrome Developer Tools Crash Course](https://www.youtube.com/watch?v=x4q86IjJFag)
+
+2) [Chrome DevTools - 20+ Tips and Tricks](https://www.keycdn.com/blog/chrome-devtools)
+
+3) [Debugging web applications using Chrome browser](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
+______________________________________________________________________________________________________________________________________________________________________________
