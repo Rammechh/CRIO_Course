@@ -96,7 +96,7 @@ Excited? Dig deeper to Git internals for answering the below questions
 
 + [Each commit gets a unique ID, how is it created?](https://blog.thoughtram.io/git/2014/11/18/the-anatomy-of-a-git-commit.html)
 ______________________________________________________________________________________________________________________________________________________________________________
-## Developer Tools 1
+## Milestone1: Developer Tools 1
   + [Opening Chrome Developer Tools](https://youtu.be/lU5AS5ntN2w)
 #### Get started using Chrome Developer Tools
   + Goto any site and press CLRTL+SHIFT+I or right -> click Inspect.
@@ -114,4 +114,19 @@ ________________________________________________________________________________
 4) [Understanding And Using REST APIs](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 
 5) [What is XMLHttpRequest](https://javascript.info/xmlhttprequest)
+______________________________________________________________________________________________________________________________________________________________________________
+## Milestone2: Inspecting HTML using Developer Tools
+  + Chrome Developer Tools (or DevTools) allows you to inspect the HTML content of a webpage.
+  + Open the Chrome Developer Tools window (Right-click and select "Inspect"). Goto the Elements window. Scroll up to find the opening <html> tag.
+  + To find the corresponding HTML code press CLRL+SHIFT+C or top left of inspect element window and hover on webpage and click the desired area to see the HTML contents.
 
+##### References
+
+1) [Get Started With Viewing And Changing The DOM](https://developers.google.com/web/tools/chrome-devtools/dom)
+
+2) [What is the HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
+  
+3) [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+4) [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+______________________________________________________________________________________________________________________________________________________________________________
