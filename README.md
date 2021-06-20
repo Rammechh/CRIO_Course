@@ -130,7 +130,7 @@ ________________________________________________________________________________
 
 4) [HTML Tables](https://www.w3schools.com/html/html_tables.asp)
 ______________________________________________________________________________________________________________________________________________________________________________
-#####Summary
+##### Summary
   
 + Chrome DevTools is useful to find the API endpoints by inspecting the HTTP requests made by the browser
 
