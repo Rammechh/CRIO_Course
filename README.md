@@ -158,7 +158,7 @@ ________________________________________________________________________________
 
   * <em> - emphasizing text - Reference
 
-  * (<table >/<thead >/<tbody >/<tr >/<th >/<td >) - add tables - Reference
+  * <!--<table >/<thead >/<tbody >/<tr >/<th >/<td >) - add tables - Reference-->
 
   * <form>/<input>/<label> - add forms and input fields - Reference
 
