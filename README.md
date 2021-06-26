@@ -157,12 +157,13 @@ ________________________________________________________________________________
   * <strong> - bolding text - Reference
 
   * <em> - emphasizing text - Reference
-
-  * <!--<table >/<thead >/<tbody >/<tr >/<th >/<td >) - add tables - Reference-->
-
+  
   * <form>/<input>/<label> - add forms and input fields - Reference
 
   * <button> - add a button that users can click - Reference
 
   * <select>/<option> - create a dropdown list - Reference
+
+  * <!--<table >/<thead >/<tbody >/<tr >/<th >/<td >) - add tables - Reference-->
+
 
