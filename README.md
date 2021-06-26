@@ -144,3 +144,25 @@ ________________________________________________________________________________
 
 3) [Debugging web applications using Chrome browser](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 ______________________________________________________________________________________________________________________________________________________________________________
+## HTML
++ Common HTML Tags
+Here are some more, commonly used HTML tags
+
+<a> - for hyperlinks - Reference
+
+<img> - include image - Reference
+
+<ul>/ol/li - unordered and ordered list - Reference
+
+<strong> - bolding text - Reference
+
+<em> - emphasizing text - Reference
+
+<table>/<thead>/<tbody>/<tr>/<th>/<td> - add tables - Reference
+
+<form>/<input>/<label> - add forms and input fields - Reference
+
+<button> - add a button that users can click - Reference
+
+<select>/<option> - create a dropdown list - Reference
+
