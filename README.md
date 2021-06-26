@@ -148,22 +148,24 @@ ________________________________________________________________________________
 + Common HTML Tags
   * Here are some more, commonly used HTML tags
 
-  * a - for hyperlinks - Reference
+  * a - for hyperlinks - [Reference](https://www.w3schools.com/tags/tag_a.asp)
 
-  * img - include image - Reference
+  * img - include image - [Reference](https://www.w3schools.com/tags/tag_img.asp)
 
-  * ul/ol/li - unordered and ordered list - Reference
+  * ul/ol/li - unordered and ordered list - [Reference](https://www.w3schools.com/html/html_lists.asp)
 
-  * strong - bolding text - Reference
+  * strong - bolding text - [Reference](https://www.w3schools.com/tags/tag_b.asphttps://www.w3schools.com/tags/tag_b.asp)
 
-  * em - emphasizing text - Reference
+  * em - emphasizing text - [Reference](https://www.w3schools.com/tags/tag_em.asp)
   
-  * form/input/label - add forms and input fields - Reference
+  * table /thead /tbody /tr /th /td  - add tables - [Reference](https://www.w3schools.com/html/html_tables.asp)
+  
+  * form/input/label - add forms and input fields - [Reference](https://www.w3schools.com/html/html_forms.asp)
 
-  * button - add a button that users can click - Reference
+  * button - add a button that users can click - [Reference](https://www.w3schools.com/tags/tag_button.asp)
 
-  * select/option - create a dropdown list - Reference
+  * select/option - create a dropdown list - [Reference](https://www.w3schools.com/tags/tag_select.asp)
 
-  * table /thead /tbody /tr /th /td  - add tables - Reference
+
 
 
