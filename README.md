@@ -148,22 +148,22 @@ ________________________________________________________________________________
 + Common HTML Tags
   * Here are some more, commonly used HTML tags
 
-  * <a> - for hyperlinks - Reference
+  * a - for hyperlinks - Reference
 
-  * <img> - include image - Reference
+  * img - include image - Reference
 
-  * <ul>/ol/li - unordered and ordered list - Reference
+  * ul/ol/li - unordered and ordered list - Reference
 
-  * <strong> - bolding text - Reference
+  * strong - bolding text - Reference
 
-  * <em> - emphasizing text - Reference
+  * em - emphasizing text - Reference
   
-  * <form>/<input>/<label> - add forms and input fields - Reference
+  * form/input/label - add forms and input fields - Reference
 
-  * <button> - add a button that users can click - Reference
+  * button - add a button that users can click - Reference
 
-  * <select>/<option> - create a dropdown list - Reference
+  * select/option - create a dropdown list - Reference
 
-  * <!--<table >/<thead >/<tbody >/<tr >/<th >/<td >) - add tables - Reference-->
+  * table /thead /tbody /tr /th /td  - add tables - Reference
 
 
