@@ -168,18 +168,18 @@ ________________________________________________________________________________
 
 ##### References
   
-1) HTML Basics(https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+1) [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 
-2) HTML 5 vs HTML 4(https://www.educba.com/html5-vs-html4/)
+2) [HTML 5 vs HTML 4](https://www.educba.com/html5-vs-html4/)
 
-3) DOCTYPE Declaration(https://html.com/tags/doctype/)
+3) [DOCTYPE Declaration](https://html.com/tags/doctype/)
 
-4) Display HTML tags as plain text(https://devpractical.com/display-html-tags-as-plain-text)
+4) [Display HTML tags as plain text](https://devpractical.com/display-html-tags-as-plain-text)
 
-5) HTML 4 "i" and “b” tags vs HTML 5 “em” and “strong” tags(https://stackoverflow.com/a/21334472)
+5) [HTML 4 "i" and “b” tags vs HTML 5 “em” and “strong” tags](https://stackoverflow.com/a/21334472)
 
-6) More semantic HTML5 alternatives to div tag(https://www.w3.org/WAI/tutorials/page-structure/regions/)
+6) [More semantic HTML5 alternatives to div tag](https://www.w3.org/WAI/tutorials/page-structure/regions/)
 
-7) HTML Attributes(https://www.w3schools.com/html/html_attributes.asp)
+7) [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp)
 
 
