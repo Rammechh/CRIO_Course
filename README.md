@@ -255,7 +255,7 @@ ________________________________________________________________________________
     * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m4-solution.html)
     * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m4-solution.css)
       
- ##### References
+##### References
 
 1) [Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
 
