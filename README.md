@@ -272,7 +272,9 @@ ________________________________________________________________________________
 #### Milestone 5 - Positioning in CSS
   + The CSS position property can be used to modify the position of an HTML element. The top/bottom/left/right properties set the distance of the element from each of the four sides of the viewport or it’s parent element or it’s current position based on its position property.
   + **position: absolute**  measures distance from the viewport (screen). 0px from the top edge of the screen and 0px from the right edge of the screen puts the element at the top-right corner of the screen. Try it out! also try **position:fixed**
-    
+  + Here’s the checkpoint code
+    * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m5-solution.html)
+    * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m5-solution.css)
 ##### References
 
 1) [CSS: position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
@@ -282,3 +284,25 @@ ________________________________________________________________________________
 3) [CSS Positioning made easy](https://alistapart.com/article/css-positioning-101/)
 
 4) [Learn CSS Positioning in just 10 steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
+ ______________________________________________________________________________________________________________________________________________________________________________
+### Milestone 6 - Build it!
+  + 
+##### References
+
+1) [HTML <a> tag](https://www.w3schools.com/tags/tag_a.asp)
+
+2) [CSS Styling Links](https://www.w3schools.com/css/css_link.asp)
+
+3) [CSS: overflow](https://www.w3schools.com/cssref/pr_pos_overflow.asp)
+
+4) [CSS: text-align](https://www.w3schools.com/cssref/pr_text_text-align.ASP)
+
+5) [HTML: image](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+
+6) [CSS: styling images](https://www.w3schools.com/css/css3_images.asp)
+
+7) [Freely usable images](https://unsplash.com/)
+
+8) [How to create a sticky footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
+
+9) [Meaning of space in CSS selectors](https://stackoverflow.com/a/10036181)
