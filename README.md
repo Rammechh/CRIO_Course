@@ -184,9 +184,9 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________________________________________________________________________
 ## CSS
-  + Inline CSS
+  + <b>Inline CSS</b>
     * An inline CSS is used to apply a unique style to a single HTML element Eg : <'h1 style="color:blue;">A Blue Heading</h1'>
-  + Internal CSS
+  + <b>Internal CSS</b>
     * An internal CSS is used to define a style for a single HTML page.An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
     * Eg: <head>
             <style>
@@ -195,3 +195,5 @@ ________________________________________________________________________________
                 p    {color: red;}
             </style>
           </head>
+  + <b>External CSS</b>
+    * 
