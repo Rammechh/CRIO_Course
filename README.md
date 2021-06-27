@@ -245,3 +245,6 @@ ________________________________________________________________________________
   ______________________________________________________________________________________________________________________________________________________________________________
 ### Milestone 4 - CSS Flexbox
   + [CSS Flexbox in 100 seconds](https://youtu.be/K74l26pE4YA)
+  + CSS Flexbox is used to automatically arrange HTML elements according to the screen size i.e, the page will look clean viewed on a laptop or on mobile. Flexbox works by setting an HTML element as a flex container and positions the child elements within the flex container element.
+  + **display: flex;** You’ll see all six tiles arranged in the same row. The horizontal axis is the main axis of the flex container by default which makes the vertical axis, the cross axis. Try using the flex-direction property to change the main axis of the flex container.
+  + **flex-wrap: wrap;** property on the flex container to split the elements into multiple lines when required
