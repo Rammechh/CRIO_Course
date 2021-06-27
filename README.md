@@ -254,3 +254,16 @@ ________________________________________________________________________________
   + Here’s the checkpoint code
     * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m4-solution.html)
     * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m4-solution.css)
+      
+ ##### References
+
+1) [Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
+
+2 [[Game] Flexbox Froggy](https://flexboxfroggy.com/)
+
+3) [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+4) [Common Flexbox Patterns](https://tobiasahlin.com/blog/common-flexbox-patterns/)
+
+5) [FlexBox Properties Cheatsheet](https://yoksel.github.io/flex-cheatsheet/)
+ ______________________________________________________________________________________________________________________________________________________________________________
