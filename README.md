@@ -182,4 +182,7 @@ ________________________________________________________________________________
 
 7) [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp)
 
-
+______________________________________________________________________________________________________________________________________________________________________________
+## CSS
+  + Inline CSS
+    * An inline CSS is used to apply a unique style to a single HTML element Eg : <h1 style="color:blue;">A Blue Heading</h1>
