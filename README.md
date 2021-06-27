@@ -250,4 +250,7 @@ ________________________________________________________________________________
   + **flex-wrap: wrap;** property on the flex container to split the elements into multiple lines when required
   + **justify-content: center;** The justify-content property of the flex container can be used to change how the elements are aligned across the main axis (horizontal axis here).
   + **align-items: baseline;** The align-items property is used to align the elements across the cross axis (vertical axis here).
-  + 
+    *  Setting align-items: flex-start; sets the height of the containers based on their text content
+  + Here’s the checkpoint code
+    * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m4-solution.html)
+    * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m4-solution.css)
