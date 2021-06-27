@@ -1,7 +1,6 @@
 <style>
   body {background-color: lightcyan};
 <style>
-<body>
 # CRIO
 ## Started Module 1 in CRIO
   + Git Basics
@@ -201,4 +200,3 @@ ________________________________________________________________________________
           </head>
   + <b>External CSS</b>
     * 
-  </body>
