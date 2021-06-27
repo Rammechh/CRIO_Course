@@ -197,4 +197,4 @@ ________________________________________________________________________________
           </head>
   + <b>External CSS</b>
     * An external style sheet is used to define the style for many HTML pages. 
-    * To use an external style sheet, add a link to it in the <head> section of each HTML page: <link rel="stylesheet" href="styles.css">
+    * To use an external style sheet, add a link to it in the <head> section of each HTML page: <'link rel="stylesheet" href="styles.css">
