@@ -269,3 +269,16 @@ ________________________________________________________________________________
 
 5) [FlexBox Properties Cheatsheet](https://yoksel.github.io/flex-cheatsheet/)
  ______________________________________________________________________________________________________________________________________________________________________________
+#### Milestone 5 - Positioning in CSS
+  + The CSS position property can be used to modify the position of an HTML element. The top/bottom/left/right properties set the distance of the element from each of the four sides of the viewport or it’s parent element or it’s current position based on its position property.
+  + **position: absolute**  measures distance from the viewport (screen). 0px from the top edge of the screen and 0px from the right edge of the screen puts the element at the top-right corner of the screen. Try it out! also try **position:fixed**
+    
+##### References
+
+1) [CSS: position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+
+2) [[Video]CSS Absolute vs Relative](https://www.youtube.com/watch?v=3PDQDRJq5Ls)
+
+3) [CSS Positioning made easy](https://alistapart.com/article/css-positioning-101/)
+
+4) [Learn CSS Positioning in just 10 steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
