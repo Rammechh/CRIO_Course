@@ -286,7 +286,10 @@ ________________________________________________________________________________
 4) [Learn CSS Positioning in just 10 steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
  ______________________________________________________________________________________________________________________________________________________________________________
 ### Milestone 6 - Build it!
-  + 
+  + [What are inline and block HTML elements?](https://www.w3schools.com/html/html_blocks.asp)
+    * A block-level element always starts on a new line.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).A block level element has a top and a bottom margin, whereas an inline element does not.The <div> element is a block-level element.
+    * An inline element does not start on a new line.An inline element only takes up as much width as necessary.This is a <span> element inside a paragraph.
+      
 ##### References
 
 1) [HTML <a> tag](https://www.w3schools.com/tags/tag_a.asp)
@@ -306,3 +309,16 @@ ________________________________________________________________________________
 8) [How to create a sticky footer](https://www.w3schools.com/howto/howto_css_fixed_footer.asp)
 
 9) [Meaning of space in CSS selectors](https://stackoverflow.com/a/10036181)
+
+#####Further reading
+
+1) [How do browsers render HTML](https://medium.com/@mustafa.abdelmogoud/how-the-browser-renders-html-css-27920d8ccaa6)
+
+2) ["auto" in CSS](https://stackoverflow.com/a/3170774)
+
+3) [What is aria-label and how should I use it?](https://stackoverflow.com/a/22040485)
+
+4) [HTML Role Attribute Explained](https://www.freecodecamp.org/news/html-role-attribute/)
+
+5) [Handling common HTML and CSS problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS)
+______________________________________________________________________________________________________________________________________________________________________________
