@@ -144,7 +144,8 @@ ________________________________________________________________________________
 
 3) [Debugging web applications using Chrome browser](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 ______________________________________________________________________________________________________________________________________________________________________________
-## HTML
+## HTML& CSS
+### HTML (Milestone 1)
 + Common HTML Tags
   * Here are some more, commonly used HTML tags
 
@@ -183,7 +184,8 @@ ________________________________________________________________________________
 7) [HTML Attributes](https://www.w3schools.com/html/html_attributes.asp)
 
 ______________________________________________________________________________________________________________________________________________________________________________
-## CSS
+### CSS Milestone 2 
+#### Getting started with CSS
   + <b>Inline CSS</b>
     * An inline CSS is used to apply a unique style to a single HTML element Eg : <'h1 style="color:blue;">A Blue Heading</h1'>
   + <b>Internal CSS</b>
@@ -226,7 +228,7 @@ ________________________________________________________________________________
 
 8) [View CSS using Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/css/reference#computed)
 ______________________________________________________________________________________________________________________________________________________________________________
-### Milestone 3 - Grouping HTML Elements
+#### Milestone 3 - Grouping HTML Elements
   + class is useful to identify a group of same or different tag types easily and apply CSS styling for the entire group elements. Multiple elements can have the same class names. Eg: all the elements below belong to the class, "tile"
   + Here’s the checkpoint code
     * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m3-solution.html)
@@ -243,7 +245,7 @@ ________________________________________________________________________________
 
 5) [When to use Class vs ID in CSS](https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/)
   ______________________________________________________________________________________________________________________________________________________________________________
-### Milestone 4 - CSS Flexbox
+#### Milestone 4 - CSS Flexbox
   + [CSS Flexbox in 100 seconds](https://youtu.be/K74l26pE4YA)
   + CSS Flexbox is used to automatically arrange HTML elements according to the screen size i.e, the page will look clean viewed on a laptop or on mobile. Flexbox works by setting an HTML element as a flex container and positions the child elements within the flex container element.
   + **display: flex;** You’ll see all six tiles arranged in the same row. The horizontal axis is the main axis of the flex container by default which makes the vertical axis, the cross axis. Try using the flex-direction property to change the main axis of the flex container.
