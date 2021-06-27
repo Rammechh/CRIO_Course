@@ -310,7 +310,7 @@ ________________________________________________________________________________
 
 9) [Meaning of space in CSS selectors](https://stackoverflow.com/a/10036181)
 
-#####Further reading
+##### Further reading
 
 1) [How do browsers render HTML](https://medium.com/@mustafa.abdelmogoud/how-the-browser-renders-html-css-27920d8ccaa6)
 
