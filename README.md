@@ -227,7 +227,7 @@ ________________________________________________________________________________
 8) [View CSS using Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/css/reference#computed)
 ______________________________________________________________________________________________________________________________________________________________________________
 ### Milestone 3 - Grouping HTML Elements
-  + 
+  + class is useful to identify a group of same or different tag types easily and apply CSS styling for the entire group elements. Multiple elements can have the same class names. Eg: all the elements below belong to the class, "tile"
   + Here’s the checkpoint code
     * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m3-solution.html)
     * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m3-solution.css)
@@ -242,3 +242,6 @@ ________________________________________________________________________________
 4) [HTML ID and Class](https://css-tricks.com/the-difference-between-id-and-class/)
 
 5) [When to use Class vs ID in CSS](https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/)
+  ______________________________________________________________________________________________________________________________________________________________________________
+### Milestone 4 - CSS Flexbox
+  + 
