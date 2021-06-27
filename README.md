@@ -200,7 +200,28 @@ ________________________________________________________________________________
     * To use an external style sheet, add a link to it in the <head> section of each HTML page: <'link rel="stylesheet" href="styles.css">
   + <b>[CSS Box Model](https://css-playground.com/view/53/box-model-introduction-playground)</b>
     * 1) margin - is the distance to keep from the neighboring elements
-      2) border - is the border for the HTML element’s region
-      3) padding - is the space, content of the element likes to keep from its border
+      2) border - is the border for the HTML element’s region (border-width, border-type and border-color)
+      3) padding - is the space, content of the element likes to keep from its border( The 4 values modify the top, right, bottom and left)
       4) height and width - specifies the height and width of the content area
-    * 
+    * Total width of element = width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
+  + Here’s the checkpoint code
+    * HTML(https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m2-solution.html)
+    * CSS(https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m2-solution.css)
+
+##### References
+
+1) [How CSS works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works)
+
+2) [CSS Specificity](https://www.w3schools.com/css/css_specificity.asp)
+
+3) [How to comment in CSS](https://www.w3schools.com/css/css_comments.asp)
+
+4) [CSS: font-family](https://www.w3schools.com/css/css_font.asp)
+
+5) [CSS: display](https://www.w3schools.com/css/css_display_visibility.asp)
+
+6) [CSS Box Model](https://css-playground.com/view/53/box-model-introduction-playground)
+
+7) [CSS measurement units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+
+8) [View CSS using Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/css/reference#computed)
