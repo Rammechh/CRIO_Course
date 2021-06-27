@@ -205,8 +205,8 @@ ________________________________________________________________________________
       4) height and width - specifies the height and width of the content area
     * Total width of element = width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
   + Here’s the checkpoint code
-    * HTML(https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m2-solution.html)
-    * CSS(https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m2-solution.css)
+    * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m2-solution.html)
+    * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m2-solution.css)
 
 ##### References
 
