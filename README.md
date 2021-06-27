@@ -289,7 +289,9 @@ ________________________________________________________________________________
   + [What are inline and block HTML elements?](https://www.w3schools.com/html/html_blocks.asp)
     * A block-level element always starts on a new line.A block-level element always takes up the full width available (stretches out to the left and right as far as it can).A block level element has a top and a bottom margin, whereas an inline element does not.The <div> element is a block-level element.
     * An inline element does not start on a new line.An inline element only takes up as much width as necessary.This is a <span> element inside a paragraph.
-      
+  + Here’s the checkpoint code
+    * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m6-solution.html)
+    * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m6-solution.css)
 ##### References
 
 1) [HTML <a> tag](https://www.w3schools.com/tags/tag_a.asp)
