@@ -198,8 +198,9 @@ ________________________________________________________________________________
   + <b>External CSS</b>
     * An external style sheet is used to define the style for many HTML pages. 
     * To use an external style sheet, add a link to it in the <head> section of each HTML page: <'link rel="stylesheet" href="styles.css">
-  + <b>CSS Box Model</b>
+  + <b>[CSS Box Model](https://css-playground.com/view/53/box-model-introduction-playground)</b>
     * 1) margin - is the distance to keep from the neighboring elements
       2) border - is the border for the HTML element’s region
       3) padding - is the space, content of the element likes to keep from its border
       4) height and width - specifies the height and width of the content area
+    * 
