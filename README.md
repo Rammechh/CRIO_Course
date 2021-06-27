@@ -259,7 +259,7 @@ ________________________________________________________________________________
 
 1) [Flexbox Playground](https://codepen.io/enxaneta/full/adLPwv/)
 
-2 [[Game] Flexbox Froggy](https://flexboxfroggy.com/)
+2) [[Game] Flexbox Froggy](https://flexboxfroggy.com/)
 
 3) [A Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
