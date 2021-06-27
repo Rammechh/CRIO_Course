@@ -225,3 +225,20 @@ ________________________________________________________________________________
 7) [CSS measurement units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 8) [View CSS using Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/css/reference#computed)
+______________________________________________________________________________________________________________________________________________________________________________
+### Milestone 3 - Grouping HTML Elements
+  + 
+  + Here’s the checkpoint code
+    * [HTML](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/html/m3-solution.html)
+    * [CSS](https://gitlab.crio.do/crio_bytes/me_html_css/-/blob/master/solution/css/m3-solution.css)
+
+##### References
+1) [HTML id attribute](https://www.w3schools.com/html/html_id.asp)
+
+2) [HTML class attribute](https://www.w3schools.com/html/html_classes.asp)
+
+3) [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
+
+4) [HTML ID and Class](https://css-tricks.com/the-difference-between-id-and-class/)
+
+5) [When to use Class vs ID in CSS](https://www.developintelligence.com/blog/2016/04/css-class-vs-id-which-one-to-use/)
