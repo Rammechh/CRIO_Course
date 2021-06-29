@@ -1,0 +1,291 @@
+##Milestone 1 - Get started using Chrome Developer Tools
+
+Loading a Web Page
+
+Loading a webpage involves a number of Requests and Responses between the browser and the server. Any external CSS or JavaScript file and images that the webpage requires are fetched using separate HTTP requests.
+-------------------------------------------------------
+<!-- File: index.html →
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Learning By Doing!</title>
+</head>
+<body>
+	Crio.Do
+	<img src="crio_beaver.jpg">
+</body>
+<script src="script.js"></script>
+</html>
+
+---------------------------------------------------------------------
+An HTTP request for the above index.html page will result in at least 3 other HTTP requests which are for fetching
+
+styles.css
+crio_beaver.jpg
+script.js
+
+As these requests may in turn result in new requests (eg: calling some API from script.js), the number of additional requests can be 3 or more.
+
+Chrome Developer Tools
+An API endpoint is the URL used to request for a particular data or resource. Visit https://leetcode.com/problemset/all/, you’ll find a table listing problems. As there are a large number of problems listed, it’s highly unlikely these are hardcoded to the HTML and rather fetched via an API call. Let’s find out the API endpoint that needs to be used to retrieve all the problems on this page. It can be done by checking the HTTP requests made when we load this webpage.
+
+
+Chrome Developer Tools (DevTools) can help us see all the HTTP requests and responses made to load the webpage. One of the requests would be an API call to retrieve all the problems.
+
+
+TODO -
+
+Visit www.google.com on your Chrome browser
+
+Right-click and select Inspect to open DevTools (or hit Ctrl + Shift + I if you prefer shortcuts)
+
+The Network tab lists the HTTP requests made. Goto the Network tab - Yes, by clicking on it! (See below screenshot)
+
+Only the HTTP requests made after opening the Network tab will be shown. Refresh the browser tab and you’ll see the Network tab get populated with the HTTP requests.
+
+You can clear the existing requests displayed by clicking on the clear button (button on the right of the red circle).
+
+To fetch data from an API endpoint without refreshing the webpage, XMLHttpRequest (XHR) is used. It enables the webpage to update a part of it without disrupting the overall view for the user.
+
+
+TODO -
+
+Visit https://leetcode.com/problemset/all/ with the DevTools open.
+
+Do you see the large number of HTTP requests being made?
+
+Filter the XHR requests (Click on "XHR" in one of the bars, as shown below)
+You’ll now be able to see a quick overview of all the XHR requests made when the page was loaded. It can include the HTTP request method (eg: GET, POST), HTTP response status code (eg: 200) and the type of request which will be XHR, since we’ve filtered for it. Do any of the request names look like they were used to fetch all the problems?
+
+
+TODO -
+
+Click on the all/ request on the left, to open up its details on the right. You’ll see the Headers section displayed on the panel that opened. This panel shows both the Request and the Response.
+
+Can you figure out the API endpoint used for this request?
+The API endpoint (or the HTTP request URL) is https://leetcode.com/api/problems/all/. You’ll notice that this is different from the overall webpage URL - https://leetcode.com/problemset/all/. Try opening the API endpoint directly in your browser. Do you see a webpage?
+
+
+The data returned in the response is in JSON format.
+
+
+JavaScript Object Notation (JSON) is a commonly used format to transfer data between computers. JSON is a human readable format with key-value pairs.
+
+Example:
+Here, we have three keys: symbol, quantity, purchaseDate and their corresponding values. The keys have to be a String whereas values come from a much wider pool of objects like String, Integer, Boolean, Array, or even another JSON nesting.
+
+
+Let’s ensure this is the correct endpoint by checking the response.
+
+
+TODO -
+
+Click Preview on top of the panel to view the API response, you’ll see the JSON response
+
+What do you think? Did we select the correct API call? (You can double-click on keys with values like an Array or a JSON nesting to expand it)
+You’ll be able to see there are lines numbered for 0-1586. Each of these could be representing one question on leetcode.
+
+TODO -
+
+Expand the keys to find the value for the 0th entry
+
+Can you find out if the question is available for only paid users?
+
+What is the question id for this problem and it’s title? What about the total number of submissions?
+The paid_only key is a boolean referring to the problem being accessible to a paid user or all users.
+
+frontend_question_id key is part of the value for the stat key. This can also be referred to as stat.frontend_question_id. It’s value gives the question id of the problem.
+
+stat.question_title gives the display title for the problem
+
+stat.total_submitted gives the total number of user submissions for this problem
+
+TODO -
+
+Visit the API endpoint directly from a new tab to see the response key-value pairs in its actual form. (A Chrome extension like JSONView helps to pretty-print the JSON value)
+Do you have any ideas about how we could programmatically get the question attributes like id, title, total submissions etc., for each of the questions?
+
+You’ll see that the stat_status_pairs key has as its value, a list of JSON objects, one for each question. This list was wrapped in Developer Tools Preview to groups of 100 (0-99, 100-199) for ease of viewing.
+
+We can programmatically loop through this list to find the values for attributes like stat.question_title, stat.frontend_question_id.
+
+##### References
+----------------
+1) [Getting started with VS Code](https://code.visualstudio.com/docs/introvideos/basics)
+
+2) [[Video] Inspect Network Activity - Chrome DevTools 101](https://www.youtube.com/watch?v=e1gAyQuIFQo)
+
+3) [Using DevTools to inspect network activity](https://developers.google.com/web/tools/chrome-devtools/network)
+
+4) [Understanding And Using REST APIs](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+
+5) [What is XMLHttpRequest](https://javascript.info/xmlhttprequest)
+---------------------------------------------------------------------------------------------------------------------
+Q&A:
+----
+
+1) Why were the HTTP requests filtered for XHR only?
+A: XHR displays mostly API requests
+
+2) In the Networks tab, check the API request made for https://leetcode.com/api/problems/all/. In the "Headers" section below the “Request URL” value, you’ll find a remote address like 104.18.35.28:443 denoting the IP address and port used by the API server. Why is the port 443? What do you know about the protocol used for communication?
+A:Port 443 is used explicitly for HTTPS services, secured transactions are made using port 443
+
+3) API requests are mostly asynchronous. What do we mean by requests being asynchronous?
+A: Asynchronous calls do not block (or wait) for the API call to return from the server. Execution continues on in your program, and when the call returns from the server, a "callback" function is executed
+
+4) Given the data for any of the problems, which of the following properties represent the total number of submissions it has? (Leetcode)
+A; stat.total_submitted
+
+5)What is the API endpoint (or url) used to retrieve data of all the Leetcode problems?
+A: https://leetcode.com/api/problems/all/
+
+6) What is the value of the "stat_status_pairs" property? What’s the datatype?
+A: JSON objects, List
+
+7) How would you know if a problem is for only paid users? (Take a look at the leetcode API response)
+A: stat.paid_only : true
+
+8) Visit https://leetcode.com/problemset/database/ and find out the API call made to retrieve problems of the Database category?
+A: https://leetcode.com/api/problems/database/
+
+________________________________________________________________________________________________________________________________________________________________________________________
+##Milestone 2 Inspecting HTML using Developer Tools
+
+Chrome Developer Tools (or DevTools) allows you to inspect the HTML content of a webpage.
+
+
+We’ll first understand how to view the whole HTML content.
+
+
+TODO -
+
+Goto https://leetcode.com/problemset/all/
+
+Open the Chrome Developer Tools window (Right-click and select "Inspect")
+
+Goto the Elements window. Scroll up to find the opening <html> tag
+
+Try clicking on the arrow beside the different HTML elements to expand or hide their child elements
+
+You’ll find the webpage’s HTML content shown here, hierarchically formatted as HTML elements.
+
+
+Now, how can we find the HTML element corresponding to a particular button or link in the webpage? Should we expand all the HTML elements in the <body> tag and be optimistic that we’ll find the correct element at some point?
+
+
+Let’s try to understand the HTML elements which make up the below Problems list table in the webpage.
+TODO -
+
+Click on the Inspect icon on the top-left of the DevTools window. (The highlighted arrow)
+Hovering over the web page will now display info about the elements. Can you figure out each item listed in the pop up display?
+Clicking on an item in the web page takes you to its HTML element in the Elements window of DevTools. Click on the "Title" column in the header row (first row) of the Problems list table. (Once you click on an item, the inspect feature gets turned off, you’ll have to click on the Inspect icon again to inspect some other element)
+Do you find that the "Title" text is wrapped in another HTML tag? (Expand the <th> element using the arrow besides it if it’s not already)
+
+Hover over the other <th> tags in the Elements window. What do you find happening on the web page?
+
+<th class="reactable-th-question_title reactable-header-sortable reactable-header-sort-desc" role="button" tabindex="0">
+
+<strong>Title</strong>
+
+</th>
+
+By cross-checking the "Title" header item’s HTML given above with the data displayed upon hovering over an item in the webpage (see below screenshot), you’ll find some of the info shown are
+
+Element tag type - <th> denoted by th
+
+Element’s class or id - classes start with "." and id if present will have a prefix, “#”. Eg: “th.reactable-th-question_title.reactable-header-sortable”
+
+The Name property shows the text inside the HTML element - "Title"
+
+The Role property shows the value of the HTML attribute, role, within the <th> opening tag
+By expanding the <th> tags, you’ll see that each of the table header row elements (#, Title, Solution etc) are wrapped in a <strong> tag. What does this do?
+
+
+Yes, it displays the text in bold.
+
+
+Hovering over HTML in the Elements window highlights the corresponding item in the webpage, you’ll find that each of the <th> tags corresponds to a header in the Problems list table.
+We’ll now dive deeper into the HTML tags that make up an HTML table
+
+
+TODO -
+
+What happens if you hover over the <table>, <thead> and the <tbody> elements? What are these tags for?
+
+Expand the <thead> tag. Which are the tags it has as children and grand-children? What do these tags do?
+
+Expand the <tbody> tag. Which are the tags it has as children and grand-children? What do these tags do?
+
+Hovering over the <table> element selects the whole of the Problems list table including the header row, content and pagination row at the bottom. <table> tag is the parent tag that makes up an HTML table.
+Hovering over the <thead> element selects the header row of the Problems list table. Header row elements of an HTML table goes inside the <thead> tag, denoting the table’s header.
+Hovering over the <tbody> element selects the whole of the content (body) of the Problems list table. Content or body of the HTML table goes inside the <tbody> tag, denoting the table’s body.
+The <thead> element has one child element which is a <tr> tag. It represents a table row. Here, we have only one row as the header and hence has a single <tr> tag inside <thead>. <tr> element contains a number of <th> elements each denoting a header column.
+The <tbody> element has a number of <tr> tags each denoting a row in the table. Here in the <tr> tags, columns are denoted using <td> tags denoting table description instead of <th> tag as we saw in <thead>.
+
+HTML tags making up a table
+Now that we know what an HTML table is composed of, let’s mess with it a bit :)
+
+
+The table looks like this for me now
+
+TODO -
+
+Check the first Problem in the Problems list table. Right-click on the <tr> tag corresponding to it in the Elements window and click on "Delete element". What happened on the web page?
+Right-click on the header column with title, Title and click on "Edit as HTML". Change the text inside the <strong> element to New Title. Did the table title change in the web page?
+
+Right-click on one of the <th> tags, select "Copy", and click on “Copy element”
+
+Paste this copied <th> tag as the last <th> element in the <tr> tag inside <thead> (To paste, click the point before which you want to paste it and press ‘Ctrl + v’, in our case, right before the </tr> tag)
+
+Add "Submissions" as text inside the <strong> element for this newly added <th> tag. What happened?
+
+
+You’d have found out that clicking on "Delete element" removed the Problem row from the web page, that the title changes on editing the HTML and Copy-pasting the <th> element adds a new header column, “Submissions”
+
+References
+----------
+
+1) Get Started With Viewing And Changing The DOM(https://developers.google.com/web/tools/chrome-devtools/dom)
+
+2) What is the HTML DOM?(https://www.w3schools.com/whatis/whatis_htmldom.asp)
+  
+3) Introduction to the DOM(https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+
+4) HTML Tables(https://www.w3schools.com/html/html_tables.asp)
+
+The HTML DOM for a web page is created by the browser from the HTML document sent by the web server.
+
+See below video on tree structure of the HTML DOM
+https://youtu.be/l-0nPnSvbX8?t=216
+
+________________________________________________________________________________________________________________________________________________________________________________________
+### Milestone 3 Know the Basics
+
+Find out which css class is applied on the element
+Select any of the tag in developer tools -> inspect
+
+Now you can see that there are different css properties and classes mentioned in the panel. Click on any one of the css files in there.
+
+It will open a screen where you can browse the files you have downloaded in the webapp.
+
+Look through the html/ js and css from the origin as well the different files referred by the page. You will see that there are few JS files coming from the main server, thats leetcode.com.
+
+Takeaway
+--------
+
+Summary
+Chrome DevTools is useful to find the API endpoints by inspecting the HTTP requests made by the browser
+
+Javascript can be used to fetch data from the APIs and re-model the response according to our need
+
+Further Learning
+------------------
+[Video] Google Chrome Developer Tools Crash Course(https://www.youtube.com/watch?v=x4q86IjJFag)
+
+Chrome DevTools - 20+ Tips and Tricks(https://www.keycdn.com/blog/chrome-devtools)
+
+Debugging web applications using Chrome browser(https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
+
+
