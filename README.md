@@ -324,3 +324,23 @@ ________________________________________________________________________________
 
 5) [Handling common HTML and CSS problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/HTML_and_CSS)
 ______________________________________________________________________________________________________________________________________________________________________________
+## Bootstrap
+  ### Using plain CSS to style your elements
+    
+##### References
+
+1) [Bootstrap - Introduction](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+2) [Ways to add Bootstrap](https://www.bootstrapdash.com/use-bootstrap-with-html/)
+
+3) [Bootstrap 3 vs Bootstrap 4](https://www.bootstrapdash.com/bootstrap-3-vs-4/)
+
+4) [Bootstrap - Alerts](https://getbootstrap.com/docs/4.5/components/alerts/)
+
+5) [Bootstrap - Colors](https://getbootstrap.com/docs/4.0/utilities/colors/)
+
+6) [Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network)
+
+7) ["auto" in CSS](https://stackoverflow.com/a/3170774)
+______________________________________________________________________________________________________________________________________________________________________________
+
