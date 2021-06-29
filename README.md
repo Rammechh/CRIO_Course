@@ -327,9 +327,8 @@ ________________________________________________________________________________
 ## Bootstrap
   ### Using plain CSS to style your elements
     + Adding Bootstrap links 
-      * Inspect page after adding link (<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-    crossorigin="anonymous"/>) in HTML page. Goto Network tab-> All -> Find and click Bootstrap.min.css (style type) -> under preview tab can find all styles (Find alert - used in link for display)
+      * Inspect page after adding link (<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>) in HTML page. Goto Network tab-> All -> Find and click Bootstrap.min.css (style type) -> under preview tab can find all styles (Find alert - used in link for display)
+    + 
 ##### References
 
 1) [Bootstrap - Introduction](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
