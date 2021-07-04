@@ -369,7 +369,7 @@ ________________________________________________________________________________
       </div>
   </nav>
     
-  + <nav > element
+  + nav element
       * navbar - necessary wrapper class for navigation bars
     * bg-dark - sets a dark background to the navigation bar
     * navbar-dark - sets the text to whitish color to suit the dark background. This is done for elements with certain bootstrap classes eg: nav-link
