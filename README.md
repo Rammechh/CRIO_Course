@@ -400,12 +400,13 @@ ________________________________________________________________________________
 ### Milestone 3 - Creating responsive content using Grids
   + [Bootstrap Cards](https://getbootstrap.com/docs/4.5/components/card/)
 ---
-<div class="card">
-  <div class="card-body">
-    <p class="card-text">HTML defines the structure of the web page</p>
-    <a href="https://www.crio.do" class="btn btn-primary">More</a>
-  </div>
-</div>
+#### Card structure
+    <div class="card">
+      <div class="card-body">
+        <p class="card-text">HTML defines the structure of the web page</p>
+        <a href="https://www.crio.do" class="btn btn-primary">More</a>
+      </div
+    </div
 ---
     
 ##### References
