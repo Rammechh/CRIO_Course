@@ -411,7 +411,9 @@ ________________________________________________________________________________
       * card-text applies styles to the text
       * btn sets the hyperlink to look like a button and btn-primary sets the color. Feel free to use other colors like btn-success, btn-secondary similar to alert-success, alert-secondary in Milestone 1.
 ---
-
+  + Bootstrap Grid System
+    * Any card we add will take up the whole of the page’s width now. use Bootstrap’s Grid system to organize the cards
+    * "Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) and is fully responsive." - [Bootstrap Docs](https://getbootstrap.com/docs/4.0/layout/grid/)
 ##### References
 
 1) [Bootstrap - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
