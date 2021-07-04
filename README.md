@@ -414,6 +414,9 @@ ________________________________________________________________________________
   + Bootstrap Grid System
     * Any card we add will take up the whole of the page’s width now. use Bootstrap’s Grid system to organize the cards
     * "Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with [flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) and is fully responsive." - [Bootstrap Docs](https://getbootstrap.com/docs/4.0/layout/grid/)
+    * A row of a Bootstrap Grid can be considered to be 12 cells and we can specify the size of the columns in each row as the number of cells. If we add the class, col-sm-12 to one of the columns (or cards in our case), it will take up the whole row (like what we have now in our web page). Using the col-sm-6 class allows for 2 cards in a row, col-sm-4 allows for 3, col-sm-3 allows for 4 and so on.
+    * use Class="row" and in sub classes use class="col-sm" for smaller devices
+      
 ##### References
 
 1) [Bootstrap - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
