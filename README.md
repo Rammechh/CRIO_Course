@@ -378,6 +378,7 @@ ________________________________________________________________________________
     * navbar-nav, nav-item, nav-link are classes basically used to add some style to the list elements. They also ensure the links get the styles set by the navbar-dark and navbar-expand-sm classes.
   + [JS in Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
   + Attached Navbar file (NavBar.html)
+  + 
     
 ##### References
 
@@ -394,3 +395,23 @@ ________________________________________________________________________________
 6) [What are meta tags?](https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags#:%7E:text=What%20are%20Meta%20Tags%3F,search%20engines%20and%20web%20crawlers.)
 
 7) [Using the viewport meta tag to control layout on mobile browsers](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
+
+______________________________________________________________________________________________________________________________________________________________________________
+ 
+##### References
+
+1) [Bootstrap - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+
+2) [Bootstrap - Cards](https://getbootstrap.com/docs/4.5/components/card/)
+
+3) [Bootstrap - Flex](https://getbootstrap.com/docs/4.4/utilities/flex/)
+
+4) [Bootstrap - Sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/)
+
+5) [Bootstrap - Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+
+6) [Bootstrap - Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)
+
+7) [Flexbox playground](https://codepen.io/enxaneta/full/adLPwv/)
+
+8) [CSS - rem unit](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
