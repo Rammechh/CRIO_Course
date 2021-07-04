@@ -418,6 +418,10 @@ ________________________________________________________________________________
     * use Class="row" and in sub classes use class="col-sm" for smaller devices
   
   + With the above changes, you’ll find the cards in the first row having different heights. Can you make the cards in a row of the same height no matter if they grow or shrink? [Enable Flex behaviours](https://getbootstrap.com/docs/4.4/utilities/flex/)  
+    
+  + Add a footer to the web page using Bootstrap classes. [Reference](https://mdbootstrap.com/docs/jquery/navigation/footer/)
+  
+  + Navigation bar links to quick-navigate to the HTML and CSS section. (Use id of the HTML and CSS container <div> elements - [Reference](https://www.htmlgoodies.com/html5/html5-navigation-using-an-anchor-tag-for-hypertext.html))
       
 ##### References
 
