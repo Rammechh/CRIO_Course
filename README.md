@@ -378,7 +378,6 @@ ________________________________________________________________________________
     * navbar-nav, nav-item, nav-link are classes basically used to add some style to the list elements. They also ensure the links get the styles set by the navbar-dark and navbar-expand-sm classes.
   + [JS in Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
   + Attached Navbar file (NavBar.html)
-  + 
     
 ##### References
 
@@ -407,8 +406,12 @@ ________________________________________________________________________________
         <a href="https://www.crio.do" class="btn btn-primary">More</a>
       </div
     </div
+      * card class is the root class for a card
+      * card-body wraps the body of the card. If header or footer is present they’d come outside the card-body <div>
+      * card-text applies styles to the text
+      * btn sets the hyperlink to look like a button and btn-primary sets the color. Feel free to use other colors like btn-success, btn-secondary similar to alert-success, alert-secondary in Milestone 1.
 ---
-    
+
 ##### References
 
 1) [Bootstrap - Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
