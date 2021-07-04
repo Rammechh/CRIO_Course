@@ -353,6 +353,22 @@ ________________________________________________________________________________
 ### Milestone 2 -Create a responsive navigation bar
   + [Responsive Navigation bar video](https://youtu.be/v1Cs2ZVgFgU)
   + [BootStrap Navigation Bar](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
+_________________________________________________________________________________________________________________________________________________________________________________
+  #### Navigation Bar
+      <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+      <div class="navbar-brand">Learn Bootstrap by doing!</div>
+      <div id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HTML</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CSS</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+_________________________________________________________________________________________________________________________________________________________________________________
     
 ##### References
 
