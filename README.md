@@ -352,7 +352,7 @@ ________________________________________________________________________________
   
 ### Milestone 2 -Create a responsive navigation bar
   + [Responsive Navigation bar video](https://youtu.be/v1Cs2ZVgFgU)
-  + 
+  + [BootStrap Navigation Bar](https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp)
     
 ##### References
 
