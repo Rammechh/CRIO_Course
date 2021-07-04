@@ -422,6 +422,13 @@ ________________________________________________________________________________
   + Add a footer to the web page using Bootstrap classes. [Reference](https://mdbootstrap.com/docs/jquery/navigation/footer/)
   
   + Navigation bar links to quick-navigate to the HTML and CSS section. (Use id of the HTML and CSS container <div> elements - [Reference](https://www.htmlgoodies.com/html5/html5-navigation-using-an-anchor-tag-for-hypertext.html))
+ 
+  + Bootstrap Spacing (Margin and Padding)
+      * [Bootstrap provides utility classes to add margin and padding to elements as well](https://getbootstrap.com/docs/4.0/utilities/spacing/#notation)
+      * mt-0 - sets margin on top to 0
+      * mx-5 - sets margin on x-axis i.e, both left and right to size 5 which translates to 3rem units (in normal case)
+      * p-0 - sets padding on all 4 sides to 0
+      * pr-md-0 - sets padding on right for at least medium sized devices to 0
       
 ##### References
 
