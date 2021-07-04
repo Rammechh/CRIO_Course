@@ -368,7 +368,7 @@ ________________________________________________________________________________
         </ul>
       </div>
   </nav>
-------------------
+    
   + <nav> element
     * navbar - necessary wrapper class for navigation bars
     * bg-dark - sets a dark background to the navigation bar
