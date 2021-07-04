@@ -370,7 +370,7 @@ ________________________________________________________________________________
   </nav>
     
   + <nav> element
-    * navbar - necessary wrapper class for navigation bars
+      * navbar - necessary wrapper class for navigation bars
     * bg-dark - sets a dark background to the navigation bar
     * navbar-dark - sets the text to whitish color to suit the dark background. This is done for elements with certain bootstrap classes eg: nav-link
     * navbar-expand-sm - sets the navigation bar links to expand (show on the same line) if the screen size is atleast "small" (we’ll see what “small” device size means shortly). Otherwise the links stack up on different lines (try reducing your web page size)
